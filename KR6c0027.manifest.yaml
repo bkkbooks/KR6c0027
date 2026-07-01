@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6c0027/v1
+canonical_location: https://kanripo.org/bkk/KR6c0027/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛能斷般若波羅蜜經
+  identifiers:
+    alt_id:
+    - T08n0238
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T08/T08n0238.xml
+    old_id: T08n0238
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 磧-CB
+  label: 磧-CB
+  source_xml_id: wit2
+- short: 洪武-CB
+  label: 洪武-CB
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: 宮
+  label: 宮
+  source_xml_id: wit5
+- short: 宋
+  label: 宋
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0027_000.yaml, hash: 'sha256:cdd17355787ff681a723ff60755268a48b48babc5b5f46404bad500754b148b3'}
+  - {seq: 1, filename: KR6c0027_001.yaml, hash: 'sha256:d4695c9d47b9c0acddfd658f2b62e9858a64f5de186b7b6cac23fc60c1430cab'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0027_001.markers.yaml, hash: 'sha256:67d694b0d898f91f062fea4c016b603c082a7f3320fe8a8bfff6fea29f805b15'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0027_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7128
+  label: 金剛能斷般若波羅蜜經
+  type: juan
+  level: 1
+hash: sha256:202c2833319972e9985f5603e1730a68fabbb4ec9347ec37b3f6784bedae911c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
