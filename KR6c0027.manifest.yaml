@@ -40,9 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6c0027_000.yaml, hash: 'sha256:cdd17355787ff681a723ff60755268a48b48babc5b5f46404bad500754b148b3'}
-  - {seq: 1, filename: KR6c0027_001.yaml, hash: 'sha256:d4695c9d47b9c0acddfd658f2b62e9858a64f5de186b7b6cac23fc60c1430cab'}
+  - {seq: 1, filename: KR6c0027_001.yaml, hash: 'sha256:a5e2141d02e4439c08fec12fcd4efcbb92c7eb37b99318aaff643b187c35bd05'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6c0027_001.markers.yaml, hash: 'sha256:67d694b0d898f91f062fea4c016b603c082a7f3320fe8a8bfff6fea29f805b15'}
+  - {seq: 0, role: markers, filename: assets/KR6c0027_000.markers.yaml, hash: 'sha256:8ed060cc288f2d9dfd4a61d8eb290e3f884775a861b3281d1b57faf11f47395f'}
+  - {seq: 1, role: markers, filename: assets/KR6c0027_001.markers.yaml, hash: 'sha256:a30af5d865c25f013f6f545054a70ac75f5d95b54df1c9ccd5de9df7f26085a1'}
 table_of_contents:
 - ref:
     seq: 1
@@ -54,7 +55,4 @@ table_of_contents:
   label: 金剛能斷般若波羅蜜經
   type: juan
   level: 1
-hash: sha256:202c2833319972e9985f5603e1730a68fabbb4ec9347ec37b3f6784bedae911c
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7e9d14cd83f4643a944d98aa22f97dbb0a9e8f073c449f9e3805dcbce3a07464
